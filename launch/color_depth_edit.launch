@@ -1,0 +1,16 @@
+<launch>
+  <node pkg="color_depth_edit" name="ColorDepthEdit" type="color_depth_edit.py"/>
+  <node name = "rqt_view" 
+        pkg = "rqt_image_view" 
+        type = "rqt_image_view" 
+        respawn = "false" 
+        output = "screen" 
+        args = "/image"/>
+
+  <node name = "rqt_view2" 
+        pkg = "rqt_image_view" 
+        type = "rqt_image_view" 
+        respawn = "false" 
+        output = "screen" 
+        args = "/depth_image"/>
+</launch>
