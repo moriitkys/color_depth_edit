@@ -6,6 +6,10 @@ calclate or edit color &amp; depth images from realsense or kinect
 Ubuntu 16.04  
 ROS  
 
+You should do 'chmod'
+(move to color_depth_edit/scripts directory)
+chmod +x color_depth_edit.py
+
 [Usage]  
 (open a terminal)  
 roscore  
